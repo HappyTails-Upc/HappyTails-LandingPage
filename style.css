@@ -1,0 +1,97 @@
+/* ======================== Reset styles ======================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ======================== Reset styles ========================  */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button__primary{
+    background-color: #fbb847;
+    border: none;
+    color: black;
+    min-width: 90px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    
+}
+
+.button__secondary{
+    background-color: transparent;
+    color: black;
+    background-color: #fbb847;
+    min-width: 90px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    border: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+/* ======================== Header ======================== */ 
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6rem;
+    
+}
+.header-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img{
+    height: 100%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex: 1;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul li a{
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* ======================== Header ======================== */
+
