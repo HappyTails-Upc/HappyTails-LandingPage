@@ -227,3 +227,64 @@ nav ul li a{
     font-size: 1.6rem;
 }
 /* ======================== about-us-app ======================== */
+
+/* ======================== about-us ======================== */
+
+.about-us-section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.about-us{
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+}
+
+.about-us > div {
+    display: flex;
+    
+}
+.about-us__info{
+    margin-bottom: 10rem;
+    display: flex;
+    align-items: center;
+}
+.about-us__info p{
+    font-size: 1.6rem;
+    max-width: 33rem;
+    margin-left: 4rem;
+}
+
+.about-us__info h2{
+    font-size: 2rem;
+    margin-left: 8rem;
+}
+
+.about-us__app{
+    align-items: center;
+    
+}
+.about-us__app__text{
+    margin-bottom: 4rem;
+}
+.about-us__app__text h3{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.about-us__app__text p{
+    font-size: 1.6rem;
+    max-width: 30rem;
+}
+.about-us__app__links {
+    margin-left: 8rem;
+    display: flex;
+    gap: 4rem;
+}
+.about-us__app__links img{
+    width: 20rem;
+}
+/* ======================== about-us ======================== */
+
